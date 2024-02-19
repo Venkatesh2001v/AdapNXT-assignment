@@ -1,0 +1,46 @@
+.sidebar-container {
+    padding-top: 20px;
+    width: 14%;
+}
+
+.sidebar-container button {
+    width: 100%;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.active-btn {
+    background-color: #E6F7FF;
+}
+
+.not-active-btn {
+    background-color: #fff;
+}
+
+.sidebar-logo {
+    height: 25px;
+    width: 25px;
+    color: rgb(131, 129, 129);
+    margin-left: 20px;
+
+}
+
+.active-heading {
+    color: #4fc2f0;
+    font-size: 15px;
+    margin-left: 30px;
+}
+
+
+.not-active-heading {
+    font-size: 15px;
+    color: rgb(131, 129, 129);
+    margin-left: 30px;
+
+}

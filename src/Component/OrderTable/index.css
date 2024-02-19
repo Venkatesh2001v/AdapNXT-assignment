@@ -1,0 +1,385 @@
+.order-table-container {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.order-table-responsive-container {
+    display: flex;
+    flex-direction: column;
+    width: 98%;
+
+}
+
+.table-options-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.table-options {
+    display: flex;
+}
+
+.import-button {
+    border: 1px solid #a6a2a2;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 35px;
+    margin-right: 40px;
+}
+
+.import-logo {
+    height: 19px;
+    width: 19px;
+    margin-right: 10px;
+}
+
+.import-button p {
+    color: rgb(126, 121, 121);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.accept-button {
+    border: 1px solid #a6a2a2;
+    background-color: #F1F2F6;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 35px;
+    margin-right: 40px;
+    opacity: 50;
+}
+
+.accept-logo {
+    height: 19px;
+    width: 19px;
+    margin-right: 10px;
+
+}
+
+.accept-button p {
+    color: rgb(130, 128, 128);
+    font-size: 15px;
+    opacity: 50;
+    margin-right: 10px;
+}
+
+.options-select {
+    width: 100px;
+}
+
+.print-button {
+    border: 1px solid #a6a2a2;
+    background-color: #F1F2F6;
+    color: rgb(130, 128, 128);
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 35px;
+    margin-right: 40px;
+    opacity: 50;
+}
+
+.print-button p {
+    margin: 0 7px;
+}
+
+.print-logo {
+    height: 17px;
+    width: 17px;
+    margin-right: 10px;
+}
+
+.refresh-button {
+    border: none;
+    outline: none;
+    background-color: #1791FD;
+    color: #faf1f1;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 35px;
+    width: 100px;
+}
+
+.table-heading-container {
+    display: flex;
+    align-items: center;
+    background-color: #F1F2F6;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.responsive-table-heading-container {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.fisrt-checkbox {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 6%;
+}
+
+.channel-container {
+    display: flex;
+    align-items: center;
+    width: 13%;
+}
+
+.channel-container p {
+    color: rgb(110, 104, 104);
+    font-weight: 600;
+}
+
+.up-down-arrow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.up-arrow {
+    height: 30px;
+    width: 30px;
+    position: relative;
+    top: 10px;
+    color: #a6a2a2;
+    cursor: pointer;
+}
+
+.down-arrow {
+    height: 30px;
+    width: 30px;
+    position: relative;
+    bottom: 10px;
+    color: #a6a2a2;
+    cursor: pointer;
+}
+
+.filter-icon {
+    height: 20px;
+    width: 20px;
+}
+
+.line {
+    background-color: #a6a2a2;
+    transform: rotate(90deg);
+    width: 30px;
+    margin: 4;
+
+}
+
+.order-no-container {
+    width: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.order-no-arrow-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.search-icon {
+    height: 20px;
+    width: 20px;
+    color: #a6a2a2;
+    cursor: pointer;
+}
+
+.order-date-container {
+    width: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.city-container {
+    width: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.customer-name-container {
+    width: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.customer-name-container p {
+    position: relative;
+    right: 20px;
+}
+
+.end-responsive {
+    display: flex;
+    align-items: center;
+
+}
+
+.order-value-container {
+    width: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.status-container {
+    width: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.operation-container {
+    width: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.table-details-container {
+    background-color: #fff;
+}
+
+.first-result {
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid #a6a2a2;
+}
+
+.second-result {
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid #a6a2a2;
+}
+
+.third-result {
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid #a6a2a2;
+}
+
+.shopify-logo {
+    margin-right: 50px;
+    color: #90BC4A;
+    height: 30px;
+    width: 30px;
+}
+
+.channel-result {
+    display: flex;
+    justify-content: center;
+    width: 13%;
+}
+
+.order-no-result {
+    display: flex;
+    width: 12%;
+    color: #1791FD;
+}
+
+.order-data-result {
+    display: flex;
+    width: 12%;
+}
+
+.city-result {
+    display: flex;
+    width: 12%;
+}
+
+.name-result {
+    display: flex;
+    width: 12%;
+}
+
+.order-value-result {
+    display: flex;
+    width: 12%;
+}
+
+.status-result {
+    display: flex;
+    width: 12%;
+}
+
+.operation-result {
+    display: flex;
+    width: 12%;
+}
+
+.plus-icon {
+    width: 3%;
+    display: flex;
+}
+
+.check-box {
+    margin-left: 20px;
+}
+
+.operation-result select {
+    border: 1px solid #a6a2a2;
+    padding: 10px 10px;
+}
+
+.table-end {
+    display: flex;
+    justify-content: flex-end;
+    width: 97%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.less-and-greater {
+    outline: none;
+    background-color: transparent;
+    border: 1px solid #7a7373;
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.page-button {
+    margin: 0 20px 0 20px;
+    outline: none;
+    background-color: transparent;
+    border: 2px solid #1791FD;
+    color: #1791FD;
+    font-weight: bold;
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.page-select-option {
+    height: 40px;
+    border: 1px solid #a6a2a2;
+    padding: 10px 10px;
+    margin-left: 20px;
+    cursor: pointer;
+    outline: none;
+}

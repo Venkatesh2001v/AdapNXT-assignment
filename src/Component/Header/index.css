@@ -1,0 +1,61 @@
+.main-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.main-responsive-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+.logo-container {
+    display: flex;
+    width: 17%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container button {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.company-logo {
+    width: 120px;
+    height: 40px;
+}
+
+.header-icon {
+    height: 30px;
+    width: 30px;
+}
+
+.main-header-options-container {
+    display: flex;
+    width: 83%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.main-header-responsive-options-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+}
+
+.main-header-responsive-options-container button {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}

@@ -1,0 +1,28 @@
+.status-tab-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.status-tab-btn {
+    outline: none;
+    cursor: pointer;
+    border: none;
+    height: 40px;
+    color: rgb(110, 104, 104);
+    font-weight: 600;
+    margin-right: 30px;
+    font-size: 16px;
+
+}
+
+.active-status-tab-btn {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    color: #3dafdc;
+    font-weight: 600;
+    border-bottom: 3px solid #4fc2f0;
+    padding-top: 3px;
+}
