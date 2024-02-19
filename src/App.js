@@ -1,5 +1,5 @@
-import Header from "./Component/Header";
-import Home from "./Component/Home";
+import Header from "./components/Header";
+import Home from "./components/Home";
 import "./App.css";
 
 const App = () => (

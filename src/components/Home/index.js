@@ -1,13 +1,13 @@
 import React from "react";
-import Main from "../Main";
-import NavigationBar from "../NavigationBar";
+import Content from "../Content";
+import Navbar from "../Navbar";
 
 import "./index.css";
 
 const Home = () => (
   <div className="home-container">
-    <NavigationBar />
-    <Main />
+    <Navbar />
+    <Content />
   </div>
 );
 
